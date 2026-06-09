@@ -5,7 +5,8 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/ariba18/Cafe-Deployment-Pipeline.git'
+                git branch: 'main',
+                    url: 'https://github.com/ariba18/Cafe-Deployment-Pipeline.git'
             }
         }
 
