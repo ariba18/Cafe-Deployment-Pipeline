@@ -2,25 +2,27 @@
 
 ## Project Overview
 
-This project demonstrates a complete CI/CD pipeline for deploying a static café website using GitHub, Jenkins, Docker, Docker Hub, and AWS EC2.
+This project demonstrates a complete CI/CD pipeline for deploying a static cafe website using GitHub, Jenkins, Docker, Docker Hub, and AWS EC2.
 
 The application is containerized using Docker, automatically built through Jenkins, pushed to Docker Hub, and deployed on an AWS EC2 instance.
 
 ## Architecture
 
+```text
 GitHub Repository
-↓
+        ↓
 Jenkins Pipeline
-↓
+        ↓
 Docker Build
-↓
+        ↓
 Docker Hub
-↓
+        ↓
 AWS EC2
-↓
+        ↓
 Docker Container
-↓
+        ↓
 Live Website
+```
 
 ## Technologies Used
 
@@ -46,6 +48,11 @@ cafe-deployment-pipeline/
 ├── kubernetes/
 │   ├── deployment.yaml
 │   └── service.yaml
+├── Screenshots/
+│   ├── EC2.png
+│   ├── cafe_website.png
+│   ├── dockerhub_repo.png
+│   └── jenkins_success.png
 ├── Dockerfile
 ├── Jenkinsfile
 ├── .gitignore
@@ -79,15 +86,43 @@ The Jenkins pipeline performs:
 
 Docker image:
 
+```text
 ariba18/cafe-website
+```
 
 ## AWS Deployment
 
 The Docker image is deployed on an Amazon EC2 instance running Docker.
 
-Public Access:
+## Live Demo
 
+**Important:** This project currently uses HTTP only.
+
+Open the website using:
+
+```text
 http://13.234.67.199
+```
+
+Do not use HTTPS (`https://`) because SSL/TLS has not yet been configured.
+
+## Project Screenshots
+
+### Jenkins Pipeline Success
+
+![Jenkins Success](Screenshots/jenkins_success.png)
+
+### Docker Hub Repository
+
+![Docker Hub Repository](Screenshots/dockerhub_repo.png)
+
+### AWS EC2 Instance
+
+![AWS EC2 Instance](Screenshots/EC2.png)
+
+### Live Website Running on AWS EC2
+
+![Cafe Website](Screenshots/cafe_website.png)
 
 ## Features
 
@@ -108,4 +143,4 @@ http://13.234.67.199
 
 ## Author
 
-Ariba Khan
+**Ariba Khan**
