@@ -133,13 +133,6 @@ Do not use HTTPS (`https://`) because SSL/TLS has not yet been configured.
 * Jenkins automation
 * Kubernetes manifests for future orchestration
 
-## Future Enhancements
-
-* Automated Jenkins-to-EC2 deployment
-* Kubernetes deployment on EKS
-* HTTPS with SSL certificates
-* Custom domain integration
-* Infrastructure as Code using Terraform
 
 ## Author
 
