@@ -106,6 +106,16 @@ http://13.234.67.199
 
 Do not use HTTPS (`https://`) because SSL/TLS has not yet been configured.
 
+## Features
+
+* Automated CI/CD workflow
+* Docker containerization
+* Cloud deployment on AWS
+* Source control with GitHub
+* Jenkins automation
+* Kubernetes manifests for future orchestration
+
+
 ## Project Screenshots
 
 ### Jenkins Pipeline Success
@@ -123,15 +133,6 @@ Do not use HTTPS (`https://`) because SSL/TLS has not yet been configured.
 ### Live Website Running on AWS EC2
 
 ![Cafe Website](Screenshots/cafe_website.png)
-
-## Features
-
-* Automated CI/CD workflow
-* Docker containerization
-* Cloud deployment on AWS
-* Source control with GitHub
-* Jenkins automation
-* Kubernetes manifests for future orchestration
 
 
 ## Author
