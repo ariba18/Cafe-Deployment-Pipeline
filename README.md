@@ -135,6 +135,5 @@ Do not use HTTPS (`https://`) because SSL/TLS has not yet been configured.
 ![Cafe Website](Screenshots/cafe_website.png)
 
 
-## Author
-
-**Ariba Khan**
+---
+## Author : **Ariba Khan**
